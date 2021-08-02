@@ -1,0 +1,22 @@
+.header{
+    background: url(https://ik.imagekit.io/hbj42mvqwv/Witcher_3_Wild_Hunt__The_-__wallpaper_5_dPdvHEA4f.jpg?updatedAt=1601583510758);
+    background-position: center;
+    color: white;
+    padding: 40px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+@media (max-width: 765px) {
+    .header{ 
+        padding: 10px;
+    }
+}
+.header p{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
+}

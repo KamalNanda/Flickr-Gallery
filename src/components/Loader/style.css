@@ -1,0 +1,15 @@
+.loader{
+    margin: 80px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.loader button{ 
+    padding: 20px;
+    background-color: rgb(24, 197, 24);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;  
+}

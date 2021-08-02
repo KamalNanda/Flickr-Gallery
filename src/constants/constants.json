@@ -1,0 +1,4 @@
+{
+    "API_ROOT_FOR_FETCHING" : "https://www.flickr.com/services/rest/?method=flickr.photos.getRecent&format=json&foo=bar&api_key=034342777263920328fbe11d23e6810f",
+    "API_ROOT_FOR_SEARCHING" : "https://www.flickr.com/services/rest/?method=flickr.photos.search&format=json&foo=bar&api_key=034342777263920328fbe11d23e6810f"
+}
