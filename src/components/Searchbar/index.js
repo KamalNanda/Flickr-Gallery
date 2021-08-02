@@ -28,6 +28,11 @@ const Searchbar = () => {
         localStorage.setItem('suggestions', JSON.stringify(suggests))
         dispatch(filterImages(searchKey))
     }
+    const handleTypingSearch = (e) => {
+        setSuggesting(false)
+        setSearchKey(e.target.value)
+        dispatch(filterImages(e.target.value)) 
+    }
     const handleSuggestionClick = (value) => { 
         setSuggesting(false)
         setSearchKey(value)
@@ -40,7 +45,7 @@ const Searchbar = () => {
                 <input  
                     value={searchKey}
                     onFocus={() => setSuggesting(true)}  
-                    onChange={(e) => setSearchKey(e.target.value) } 
+                    onChange={(e) => handleTypingSearch(e) } 
                     type="text" 
                     placeholder="Search...." />
                 <img src={searchbarlogo} onClick={(e) => handleSubmit(e)} />
